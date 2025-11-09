@@ -32,7 +32,8 @@ To develop a binary prediction system (up / down) for stock price movement, base
 
 Once the API is running, you can send a POST request with the following input features:
   
-  json
+```bash
+json
 
       {
   "Close": 10.0,  
@@ -41,15 +42,18 @@ Once the API is running, you can send a POST request with the following input fe
   "RSI_14": 56.0,
   "WTI_Close": 46.32
        }
+```
 
 The response will be:
 
-   json
+```bash
+json
        {
   "prediction": 1,
   "confidence": 0.6,
   "meaning": "1 = DOWN tomorrow"
         }
+```
 
 ## Input Explanation
 
