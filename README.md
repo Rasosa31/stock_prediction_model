@@ -31,6 +31,7 @@ To develop a binary prediction system (up / down) for stock price movement, base
 ## Example Usage
 
 Once the API is running, you can send a POST request with the following input features:
+  
   json
 
       {
