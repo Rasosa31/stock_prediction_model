@@ -76,7 +76,7 @@ Follow this steps to clone the repository, built the Docker and get a prediction
 
 ### To clone the repository
 ```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
+https://github.com/Rasosa31/stock_prediction_model.git
 ```
 
 ### cd tu_repositorio
